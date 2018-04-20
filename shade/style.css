@@ -1,0 +1,33 @@
+article {
+    background-color: black;
+    padding: 1.5em;
+    order: 2;
+}
+body{
+    font-family: 'Goudy Bookletter 1911', serif;
+    line-height: 1.2em;
+    color: snow; 
+}
+h1 {
+    line-height: 1.5em;
+    font-family: 'Fredericka the Great', cursive;
+    color: #00deff;
+    text-align: center;
+}
+a link {
+    color: #00deff;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    align-items: stretch;
+}
+aside 1 {
+    order: 1;
+}
+aside 2 {
+    order: 3;
+}
